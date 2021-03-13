@@ -29,6 +29,11 @@ html {
 .flex-container{
     display: flex;
 }
+
+.wrap{
+    flex-wrap: wrap;
+}
+
 .container {
     background-color: #92CCCE;
     color: #31343D;
