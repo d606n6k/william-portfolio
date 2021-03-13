@@ -10,32 +10,70 @@
 <body>
     <header>
         <nav>
-            <h1>William Lucht</h1>
-            <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact Me</a></li>
-                <li><a href="#">Resume</a></li>
-            </ul>
+            <div class="container">
+                <h1>William Lucht</h1>
+                <div class="">
+                    <ul>
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">Contact Me</a></li>
+                        <li><a href="#">Resume</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <div>
+        <div id="hero">
             <img src="./assets/images/code-hero.png" alt="Image code code-hero">
+            <figcaption>I love the web!</figcaption>
         </div>
-        <section id="about-me"></section>
-        <section id="work"></section>
-        <section id="contact-me"></section>
-        <section id="resume"></section>
+        <section id="about-me">
+            <div class="flex-container">
+                <section class="wrap">
+                    <h2>About Me</h2>
+                </section>
+                <section class="wrap">
+                    <p>Hi my name is William Lucht and this is placeholder content!</p>
+                </section>
+            </div>
+        </section>
+        <section id="work">
+            <div class="flex-container">
+                <section class="wrap">
+                    <h2>Work</h2>
+                </section>
+                <section class="wrap">
+                    <!-- Removed <p> here for now, need to create flex-box grid for all placeholder work -->
+                </section>
+            </div>
+        </section>
+        <section id="contact-me">
+            <div class="flex-container">
+                <section class="wrap">
+                    <h2>Contact Me</h2>
+                    <ul>
+                        <li>Phone: <a href="tel:1234567891">1234567891</a></li>
+                        <li>Email: <a href="mailto:aaronlucht@gmail.com">aaronlucht@gmail.com</a></li>
+                        <li><a href="#" target="_blank">Github</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Spotify</a></li>
+                    </ul>
+                </section>
+            </div>
+        </section>
+        <section id="resume"><div class="flex-container">
+                <section class="wrap">
+                    <h2>Resume</h2>
+                </section>
+                <section class="wrap">
+                    <!-- Removed <p> here now, need figure out if we are going to have this section or not -->
+                </section>
+            </div>
+        </section>
     </main>
     <footer>
-        <ul>
-            <li>Phone: <a href="tel:1234567891">1234567891</a></li>
-            <li>Email: <a href="mailto:aaronlucht@gmail.com">aaronlucht@gmail.com</a></li>
-            <li><a href="#" target="_blank">Github</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Spotify</a></li>
-        </ul>
+        
     </footer>
 </body>
 </html>
