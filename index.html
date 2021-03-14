@@ -8,20 +8,37 @@
     <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="container">
+    <header class="flex-container">
+        <!-- The section html is correct. We need to study the flexbox layout and how it works. Refer to: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ -->
+        <section id="portfolio-name" class="flex-wrap">
+            <h1>William Lucht</h1>
+        </section>
+        <section id="navigation">
+            <nav>    
+                <ul>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                    <li><a href="#">Resume</a></li>
+                </ul>
+            </nav>    
+        </section>
+        <!-- TODO: rearrange the nav below the h1. Rewrite CSS -->
+            <!-- Version 1 Fallback html:-->
+            <!-- <div class="container flex-container">
                 <h1>William Lucht</h1>
-                <div class="">
-                    <ul>
-                        <li><a href="#">About Me</a></li>
-                        <li><a href="#">Work</a></li>
-                        <li><a href="#">Contact Me</a></li>
-                        <li><a href="#">Resume</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+                <nav>    
+                    <div class="wrap">
+                        <ul>
+                            <li><a href="#">About Me</a></li>
+                            <li><a href="#">Work</a></li>
+                            <li><a href="#">Contact Me</a></li>
+                            <li><a href="#">Resume</a></li>
+                        </ul>
+                    </div>
+                </nav>    
+            </div> -->
+        
     </header>
     <main>
         <div id="hero">
