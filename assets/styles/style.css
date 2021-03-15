@@ -152,6 +152,36 @@ nav a {
         flex-direction: row;
     }
 
+    #about-me{
+        background-color: #EEEEF7;
+    }
+
+    #about-me-inner {
+        flex-direction: row;
+        padding: 30px;
+    }
+
+    #about-me-inner h2 {
+        /* width: 60px; */
+        flex: 1 0 0px;
+        font-size: 44px;
+        text-align: right;
+        background-color: purple;
+        margin-right: 25px;
+        line-height: 120px;
+        padding-right: 14px;
+        border-right: solid 4px #31343D;
+        color: #31343D;
+    }
+
+    #about-me-inner span {
+        order: 1;
+    }
+
+    #about-me-inner p {
+        flex: 1 0 60px;
+        margin: 0 10px 0 0;
+    }
   }
   
   /* Large smartphones - navbar changes color */
