@@ -99,6 +99,7 @@ nav a {
 #hero {
     width: 100%;
     position: relative;
+    background-color: #EEEEF7;
 }
 
 #hero img {
@@ -162,11 +163,11 @@ nav a {
     }
 
     #about-me-inner h2 {
-        /* width: 60px; */
+        height: 147px;
         flex: 1 0 0px;
         font-size: 44px;
         text-align: right;
-        background-color: purple;
+        /* background-color: purple; */
         margin-right: 25px;
         line-height: 120px;
         padding-right: 14px;
@@ -175,7 +176,10 @@ nav a {
     }
 
     #about-me-inner span {
-        order: 1;
+        content: attr(data-text);
+        display: block;
+        top: -72px;
+        position: relative;
     }
 
     #about-me-inner p {
