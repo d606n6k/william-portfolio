@@ -5,13 +5,15 @@ The motivation for this project was to utilize the 'flexbox' positioning alongsi
 
 ## Installation
 To clone this to your repository, please use 
-
+```
 SSH: git@github.com:d606n6k/william-portfolio.git
-
+```
+```
 HTTPS: https://github.com/d606n6k/william-portfolio.git
-
+```
+```
 GitHub CLI: gh repo clone d606n6k/william-portfolio
-
+```
 
 ## Usage
 Navigate the page using the navigation links to jump to the appropriate page sections:
