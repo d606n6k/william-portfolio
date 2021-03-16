@@ -63,7 +63,7 @@ nav a{
     border-bottom: 3px solid #92CCCE;
   }
 
-nav h1 {
+h1 {
     font-weight: bold;
     font-size: 44px;
     flex: 1 0 60px;
@@ -130,24 +130,26 @@ nav a {
         background-color:   #31343D;
         color: #92CCCE;
         border-bottom: 3px solid #92CCCE;
-        flex-direction: row;
     }
 
     #navigation li {
-        display: inline-flex;
+        background-color: #31343D;
+        display: inline;
         padding: 10px;
+        margin-right: -170px;
+        position: relative;
+        left: -210px;
+        top: 30px;
     }
     
     .flex-container {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex: 0 0 200px;
     }
-/* Below */
 
-  
-  /* Large smartphones - navbar changes color */
-  @media screen and (min-width: 768px) {
+/* Large smartphones - navbar changes color */
+@media screen and (min-width: 768px) {
     nav {
       background-color: #31343D;
       color: #92CCCE;
@@ -155,7 +157,7 @@ nav a {
 
     .flex-container {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex: 0 0 200px;
     }
     
@@ -170,8 +172,8 @@ nav a {
     }
 
   }
-
-  @media screen and (min-width: 992px) {
+  
+@media screen and (min-width: 992px) {
     .flex-container{
         display: flex;
         flex-direction: row;
@@ -190,7 +192,7 @@ nav a {
         width: 200px;
     }
 
-    #portfolio-name h1{
+    h1{
         width: 340px;
         /* line-height: 80px; */
         font-size: 34px;
@@ -199,8 +201,8 @@ nav a {
         position: relative;
         text-align: right;
         margin: 20px 0;
-        padding: 15px 10px 30px 0;
-        font-style: bold;
+        padding: 0px 10px 30px 0;
+        font-weight: bold;
         background-color: #92CCCE;
         color: #31343D;
     }
@@ -210,12 +212,6 @@ nav a {
         flex-direction: column;
         text-align: center;
         display: inline;
-        flex-direction: row;
-    }
-
-    #navigation li {
-        background-color: #31343D;
-        display: flex;
         flex-direction: row;
     }
 
@@ -232,27 +228,29 @@ nav a {
         height: 147px;
         flex: 1 0 0px;
         font-size: 44px;
-        font-weight: bold;
-        border-right: solid 4px #445877;
-        color: #445877;
         text-align: right;
+        /* background-color: purple; */
         margin-right: 25px;
+        line-height: 120px;
         padding-right: 14px;
-        padding-top: 14px;
+        border-right: solid 4px #31343D;
+        color: #31343D;
     }
 
-    /* #about-me-inner span {
+    #about-me-inner span {
         content: attr(data-text);
         display: block;
         top: -72px;
         position: relative;
-    } */
+    }
 
     #about-me-inner p {
         flex: 1 0 60px;
         margin: 0 10px 0 0;
     }
   }
+  
+  
   
 
 }
