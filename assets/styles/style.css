@@ -114,6 +114,41 @@ nav a {
     right: 10px;
 }
 
+
+/* work inner grid */
+.boxx{
+    background-color: black;
+    color: white;
+}
+
+.heading {
+    -ms-flex-align: ;
+}
+#work {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+.content-row {
+    width: 100%;
+    display: flex;
+} 
+
+.col-1 {
+    width: 100%;
+    height: 300px;
+    flex-direction: column;
+}
+
+.col-2 {
+
+}
+
 /* Media Queries */
   /* Small smartphones - image placeholders change color */
   @media screen and (min-width: 576px) {
@@ -135,18 +170,23 @@ nav a {
 
     #navigation li {
         background-color: #31343D;
-        display: inline;
-        padding: 10px;
-        margin-right: -170px;
-        position: relative;
-        left: -210px;
-        top: 30px;
+    display: inline;
+    padding: 10px;
+    /* margin-right: -170px; */
+    /* position: relative; */
+    /* left: -210px; */
+    /* top: 30px; */
     }
     
     .flex-container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex: 0 0 200px;
+    }
+
+    .nav-flex-container{
+        justify-content: center;
+        flex-direction: row;
     }
 
 /* Large smartphones - navbar changes color */
