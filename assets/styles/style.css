@@ -84,11 +84,11 @@ h1 {
     font-weight: bold;
     font-size: 44px;
     flex: 1 0 60px;
-    line-height: 70px;    background-color: #92CCCE;
+    line-height: 70px;    
+    background-color: #92CCCE;
 }
 
 .container ul li {
-    /* align-items: center; */
     text-align: center;
     border-bottom: solid 3px;
     display: inline;
@@ -111,7 +111,7 @@ h1 {
 #hero img {
     width: 100%;
 }
-
+ 
 #hero figcaption {
     position: absolute;
     font-family: sans-serif;
@@ -137,6 +137,7 @@ h1 {
     line-height: 60px;
 }
 
+/* Work Section */
 #work-h2 {
     padding: 32px 0 0px 32px;
 }
@@ -152,15 +153,10 @@ h1 {
     padding: 32px;
 }
 
-/* work inner grid */
 .boxx{
     background-color: rgb(255, 152, 152);
     border: solid 1px green;
     color: white;
-}
-
-.heading {
-
 }
 
 #work {
@@ -168,6 +164,7 @@ h1 {
     flex-direction: column;
 }
 
+/* Content Section */
 .content {
     display: flex;
     flex-grow: 1;
@@ -184,10 +181,7 @@ h1 {
     flex-direction: column;
 }
 
-.col-2 {
-
-}
-
+/* Contact Me Section */
 #contact-me-inner {
     flex-direction: row;
     padding: 32px;
@@ -261,7 +255,7 @@ h1 {
     .content-row {
         width: 50%;
     }
-
+}
 /* Large smartphones - navbar changes color */
 @media only screen and (min-width: 768px) {
     nav {
@@ -283,7 +277,6 @@ h1 {
 
     h1 {
         width: 340px;
-        /* line-height: 80px; */
         font-size: 34px;
         font-weight: bolder;
         height: 66px;
@@ -295,7 +288,6 @@ h1 {
         background-color: #92CCCE;
         color: #31343D;
     }
-
   }
   
 @media only screen and (min-width: 992px) {
@@ -316,9 +308,7 @@ h1 {
         justify-content: left;
         width: 200px;
     }
-
-     
-    }  
+      
 
     #about-me{
         background-color: #EEEEF7;
@@ -348,5 +338,4 @@ h1 {
         color: #44587F;
     }
   }
-}
   
