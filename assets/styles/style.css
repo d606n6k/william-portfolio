@@ -60,6 +60,11 @@ header {
     padding: 10px;
 }
 
+.navigation ul {
+    height: 50px;
+    padding: 15px 0;
+}
+
 .nav-flex-container {
     justify-content: center;
     flex-direction: row;
@@ -68,6 +73,7 @@ header {
 nav a{
     color: #92CCCE;
     border-bottom: 3px solid #92CCCE;
+    text-decoration: none;
   }
 
 h1 {
@@ -75,10 +81,6 @@ h1 {
     font-size: 44px;
     flex: 1 0 60px;
     line-height: 70px;    background-color: #92CCCE;
-}
-.navigation ul {
-    height: 50px;
-    padding: 15px 0;
 }
 
 .container ul li {
@@ -94,10 +96,6 @@ h1 {
     background-color: #31343D;
     display: inline;
     color: #92CCCE;
-}
-
-nav a {
-    text-decoration: none;
 }
 
 #hero {
@@ -119,6 +117,34 @@ nav a {
     top: 80%;
     right: 10px;
 }
+/* About Me Section */
+
+#about-me-inner {
+    padding: 32px;
+}
+
+#about-me-inner h2 {
+    height: 147px;
+    flex: 1 0 0px;
+    font-size: 44px;
+    text-align: left;
+    margin-right: 25px;
+    line-height: 60px;
+}
+
+#work-h2 {
+    padding: 32px 0 0px 32px;
+}
+
+#work-h2 h2 {
+    border-bottom: solid 4px black;
+    margin-right: 33px;
+    font-size: 44px;
+}
+
+#work-examples {
+    padding: 32px;
+}
 
 /* work inner grid */
 .boxx{
@@ -127,8 +153,9 @@ nav a {
 }
 
 .heading {
-    -ms-flex-align: ;
+
 }
+
 #work {
     display: flex;
     flex-direction: column;
@@ -288,13 +315,6 @@ nav a {
         padding-right: 14px;
         border-right: solid 4px #31343D;
         color: #31343D;
-    }
-
-    #about-me-inner span {
-        content: attr(data-text);
-        display: block;
-        top: -72px;
-        position: relative;
     }
 
     #about-me-inner p {
