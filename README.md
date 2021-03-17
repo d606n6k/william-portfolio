@@ -1,5 +1,7 @@
 # William Lucht's Flexbox Portfolio
 
+ ![William Lucht Portfolio](assets/images/screenshot.png)
+
 ## Description
 The motivation for this project was to utilize the 'flexbox' positioning alongside media queries inside our CSS. I decided to build a portfolio using these techniques because the landing page had manageable User Stories to navigate a basic portfolio page. I learned quite a but about HTML child and ancestor relationships while working on the flexbox layout. 
 
@@ -16,8 +18,8 @@ GitHub CLI: gh repo clone d606n6k/william-portfolio
 ```
 
 ## Usage
-Navigate the page using the navigation links to jump to the appropriate page sections:
- ![alt text](assets/images/screenshot.png)
+Navigate the page using the navigation links to jump/scroll to the appropriate page sections:
+
 
 ## Credits
 Author: William A. Lucht
