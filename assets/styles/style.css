@@ -151,17 +151,52 @@ h1 {
 
 #work-example-1 {
     height: 200px;
-    margin-bottom: 6px;
+    margin-bottom: 0;
+    background: linear-gradient( rgb(255 255 255 / 45%), rgb(118 118 118 / 45%) ), url("../../assets/images/weather-db.png");
+    background-size: cover;
+}
+
+#work-example-1:hover {
+    background: linear-gradient( rgb(255 255 255 / 0%), rgb(118 118 118 / 45%) ), url("../../assets/images/weather-db.png");
+    background-size: cover;
 }
 
 #work-example-2 {
     height: 200px;
-    margin-bottom: 6px;
+    margin-top: 6px;
+    background: linear-gradient( rgb(255 255 255 / 45%), rgb(118 118 118 / 45%) ), url("../../assets/images/recipeshuffle.png");
+    background-size: cover;
+}
+
+#work-example-2:hover {
+    background: linear-gradient( rgb(255 255 255 / 0%), rgb(118 118 118 / 45%) ), url("../../assets/images/recipeshuffle.png");
+    background-size: cover;
 }
 
 #work-example-3 {
     height: 200px;
-    margin-bottom: 6px;
+    margin-top: 6px;
+    background: linear-gradient( rgb(255 255 255 / 45%), rgb(118 118 118 / 45%) ), url("../../assets/images/workdayscheduler.png");
+    background-size: cover;
+}
+
+#work-example-3:hover {
+    background: linear-gradient( rgb(255 255 255 / 0%), rgb(118 118 118 / 45%) ), url("../../assets/images/workdayscheduler.png");
+    background-size: cover;
+}
+
+#project-examp-one {
+    width: 100%;
+    height: 100%;
+}
+
+#project-examp-two {
+    width: 100%;
+    height: 100%;
+}
+#project-examp-three {
+    width: 100%;
+    height: 100%;
 }
 
 /* Contact Me Section */
@@ -235,6 +270,24 @@ h1 {
         padding: 10px;
     }
     
+    #work-example-1 {
+        height: 200px;
+        margin-bottom: 6px;
+    }
+    
+    #work-example-2 {
+        height: 200px;
+        margin-right: 3px;
+        margin-top: 0;
+    }
+    
+    #work-example-3 {
+        height: 200px;
+        margin-left: 3px;
+        margin-top: 0;
+    }
+    
+
     .flex-container {
         display: flex;
         flex-direction: column;
@@ -254,6 +307,7 @@ h1 {
     .content-row {
         width: 50%;
     }
+    
 }
 /* Large smartphones - navbar changes color */
 @media only screen and (min-width: 768px) {
@@ -298,6 +352,21 @@ h1 {
     
     #william-hero img{
         border-radius: 60px;
+    }
+
+    #work-example-1 {
+        height: 200px;
+        margin-bottom: 6px;
+    }
+    
+    #work-example-2 {
+        height: 200px;
+        margin-right: 3px;
+    }
+    
+    #work-example-3 {
+        height: 200px;
+        margin-left: 3px;
     }
   }
   
@@ -365,5 +434,21 @@ h1 {
         margin: 0 10px 0 0; */
         padding: 0 20px;
     }
+    
+    #work-example-1 {
+        height: 200px;
+        margin-bottom: 6px;
+    }
+    
+    #work-example-2 {
+        height: 200px;
+        margin-right: 3px;
+    }
+    
+    #work-example-3 {
+        height: 200px;
+        margin-left: 3px;
+    }
+
   }
   
