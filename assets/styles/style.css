@@ -116,6 +116,7 @@ h1 {
 #about-me-inner {
   padding: 32px;
   text-align: center;
+  background-color: aliceblue;
 }
 
 #about-me-inner h2 {
@@ -132,18 +133,36 @@ h1 {
 #about-me-inner p {
   padding: 0px 6px;
 }
-
-/* #connect-with {
-    text-align: center;
-} */
-/* Work Section */
-#work-h2 {
-  /* padding: 32px 0 0px 32px; */
+#intro {
+  background-color: white;
+  max-width: 1110px;
+  margin: 0 auto;
+  border-radius: 3px;
+  padding: 12px;
 }
-
+#connect-with {
+  background-color: white;
+  max-width: 1110px;
+  margin: 0 auto;
+  border-radius: 3px;
+  padding: 12px;
+  margin-top: 6px;
+}
+/* Work Section */
+#work {
+  background-color: #161616;
+}
+#work-h2 {
+  max-width: 1110px;
+  margin: 0 auto;
+  color: white;
+}
+hr {
+  border-top: 2px solid rgb(255 120 4);
+}
 #work-h2 h2 {
   font-weight: 900;
-  padding: 0 20px 5px 20px;
+  padding: 18px 20px 5px 0;
 }
 
 .work-examples {
@@ -161,6 +180,7 @@ h1 {
   background: linear-gradient(rgb(255 255 255 / 45%), rgb(118 118 118 / 45%)),
     url("../../assets/images/weather-db.png");
   background-size: cover;
+  border-radius: 3px;
 }
 
 #work-example-1:hover {
@@ -176,6 +196,7 @@ h1 {
   background: linear-gradient(rgb(255 255 255 / 45%), rgb(118 118 118 / 45%)),
     url("../../assets/images/recipeshuffle.png");
   background-size: cover;
+  border-radius: 3px;
 }
 
 #work-example-2:hover {
@@ -191,6 +212,7 @@ h1 {
   background: linear-gradient(rgb(255 255 255 / 45%), rgb(118 118 118 / 45%)),
     url("../../assets/images/workdayscheduler.png");
   background-size: cover;
+  border-radius: 3px;
 }
 
 #work-example-3:hover {
@@ -206,6 +228,7 @@ h1 {
   background: linear-gradient(rgb(255 255 255 / 45%), rgb(118 118 118 / 45%)),
     url("../../assets/images/neighborhood.png");
   background-size: cover;
+  border-radius: 3px;
 }
 
 #work-example-4:hover {
@@ -220,6 +243,7 @@ h1 {
   background: linear-gradient(rgb(255 255 255 / 45%), rgb(118 118 118 / 45%)),
     url("../../assets/images/ecomm.png");
   background-size: cover;
+  border-radius: 3px;
 }
 
 #work-example-5:hover {
@@ -254,7 +278,7 @@ h1 {
 }
 
 .work-stuff:last-child {
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 /* Contact Me Section */
@@ -326,6 +350,10 @@ h1 {
     background-color: #31343d;
     display: inline;
     padding: 10px;
+  }
+
+  #work {
+    background-color: #161616;
   }
 
   #work-example-1 {
